@@ -1,0 +1,177 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+color: white;
+text-decoration: none;
+transition: 0.3;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+ nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #39E5AC;
+    height: 8vh;
+ }
+.banner01{
+      background: url("banner.png") no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+  }
+  .banner02{
+      background: url("banner2.png") no-repeat center center;
+      height: 140vh;
+      background-size: cover;
+
+  }
+
+  .banner03{
+    background: url("banner3.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.banner04{
+    background: url("banner4.png") no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+.navbar{
+background-color:#39E5AC;
+color: white;
+}
+.nav-item a {
+color: white;
+}
+
+.banner01 .img1 {
+    max-width: 100%;
+ 
+}
+.banner01 p{
+    font-size: 22px;
+    font-weight: 600;
+}
+ 
+.banner01 .p02{
+    color: white;
+}
+.btn{
+background-color: #53eabb;
+color: white;
+box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.295);
+}
+.banner02 h3 {
+    color: #53eabb; 
+}
+ .banner02 .l1{
+    font-size: 20px;
+    font-weight: 600;
+  
+ }
+
+.banner02 .l2{
+    font-size: 15px;
+  
+}
+.banner02 .l3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #53eabb;
+    ;
+}
+.banner02 .l4 {
+    margin-left: 41px;
+    max-width: 330px;
+  
+    font-size: 12px;
+}
+.banner02 .l5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #53eabb;
+}
+
+.banner02 p{
+   font-size: 16px;
+   font-size: 12px;
+   max-width: 300px;
+}
+
+.banner03 h3{
+    font-size:62px;
+    color: #53eabb; 
+    font-weight: bolder;
+}
+.banner03 h4{
+    font-size: 29px;
+    font-weight: bolder;
+}
+ 
+.banner04 h3{
+    color: #53eabb;
+    font-size: 28px;
+    font-weight: bolder;
+
+}
+.banner04 h4{
+    font-weight: bolder;
+
+}
+
+.banner04 h5{
+    color: #53eabb;
+    font-weight: bolder;
+}
+
+.banner04 p{
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.banner05 h3{
+    font-size:62px;
+    color: #53eabb; 
+    font-weight: bolder;
+}
+.banner05 h5{
+    font-size: 23px;
+    font-weight: bolder;
+    color: #53eabb;;
+}
+.banner05 p{
+    font-size: 15px;
+}
+
+.banner05 small{
+    font-size: 14px;
+}
+
